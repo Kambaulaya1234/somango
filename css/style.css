@@ -54,12 +54,23 @@ input[type="submit"],input[type="reset"],a{
 	position: relative;
 }
 .w3_agileits_banner_main_grid{
-	padding:2em 0 0;
+	padding:0em 0 0;
 	position:relative;
 }
 .w3_agile_logo{
 	float:left;
 }
+
+.shy-menu{
+	text-align: left;
+}
+/* .w3_agile_logo_index{
+
+
+margin-top: 0pt;
+position: cover;
+
+} */
 
 /* index_nav_top */
 .w3_agile_logo_index{
