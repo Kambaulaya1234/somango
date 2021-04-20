@@ -56,6 +56,11 @@ input[type="submit"],input[type="reset"],a{
 .w3_agileits_banner_main_grid{
 	padding:0em 0 0;
 	position:relative;
+	/* position: fixed; */
+  /* right: 0; */
+  /* top: 100%; */
+  /* width: 6em; */
+  margin-top:-4.5em;
 }
 .w3_agile_logo{
 	float:left;
@@ -75,6 +80,8 @@ position: cover;
 /* index_nav_top */
 .w3_agile_logo_index{
 	float:left;
+	margin-top: 4.5em;
+	
 }
 /* index_nav_top */
 .w3_agile_logo h1 a{
@@ -129,6 +136,7 @@ position: cover;
 .agileits_social_list_index li{
 	display: inline-block;
     margin-right: 3em;
+	/* margin-top: -5.5em; */
 }
 .agileits_social_list_index li a{
     color: rgb(0, 0, 0);
@@ -147,6 +155,12 @@ position: cover;
     display: inline-block;
     font-size: 1.2em;
 }
+a.w3_agile_instagram:hover{
+	font-size:19px;
+	color:#1ab7ea;
+	/* color:rgb(245, 245, 245); */
+	/* color:#ea4c89; */
+}
 a.w3_agile_facebook:hover{
 	color:#3b5998;
 }
@@ -162,6 +176,7 @@ a.w3_agile_vimeo:hover{
 .agile_social_icons_banner {
     float: right;
     margin:1.6em 2em 0 0;
+	margin-top: -2.3em;
 }
 /*-- menu-navigation --*/
 .shy-menu{
@@ -196,6 +211,7 @@ a.w3_agile_vimeo:hover{
 .shy-menu-hamburger,.shy-menu { 
 	height: 35px;
 	width: 35px;
+	margin-top: -3.0em;
 }
 .shy-menu.is-open{ 
   background-color:#262626;
@@ -881,7 +897,7 @@ figure.agileits_effect_moses:hover img {
     -o-background-size: cover;
     -ms-background-size: cover;
 	background-attachment:fixed;
-	padding:5em 0 0;
+	padding:1.0em 0 0;
 }
 .agileits_w3layouts_footer_logo h2 a {
     font-size: 1.2em;
@@ -971,7 +987,7 @@ figure.agileits_effect_moses:hover img {
 }
 .w3_agileits_footer_copy{
 	background:rgba(29, 22, 22, 0.63);
-	padding:1.5em 0;
+	padding:1.0em 0;
 	text-align:center;
 	margin:5em 0 0;
 }
